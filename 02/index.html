@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Music Streaming - Federico Gentili</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="mx-auto text-center my-8">
+      <h1 class="font-bold text-4xl mb-4">App Music Streaming</h1>
+      <p class="text-md italic p-1">
+        Ciao! 👋 Registrati alla pagina di Streaming Musicale! 🎉
+      </p>
+    </div>
+
+    <hr class="h-px my-8 bg-neutral-200 max-w-md mx-auto border-0" />
+
+    <div class="flex items-center gap-4 mx-auto w-fit p-4 flex-wrap max-w-xl">
+      <a
+        href="/index.html"
+        class="bg-neutral-200 text-neutral-800 px-4 py-1.5 rounded-full shadow shadow-neutral-100 border border-neutral-200 hover:bg-neutral-300 hover:text-neutral-700 hover:shadow-neutral-200"
+      >
+        Home
+      </a>
+      <a
+        href="/01/index.html"
+        class="bg-neutral-200 text-neutral-800 px-4 py-1.5 rounded-full shadow shadow-neutral-100 border border-neutral-200 hover:bg-neutral-300 hover:text-neutral-700 hover:shadow-neutral-200"
+      >
+        Esercizio 1
+      </a>
+      <a
+        href="/02/index.html"
+        class="bg-emerald-500 text-white px-4 py-1.5 rounded-full shadow shadow-emerald-300 border border-emerald-400"
+      >
+        Esercizio 2
+      </a>
+    </div>
+
+    <hr class="h-px my-8 bg-neutral-200 max-w-md mx-auto border-0" />
+
+    <form class="max-w-sm mx-auto p-4 mb-8">
+      <div>
+        <label
+          for="name"
+          class="block mb-2 text-sm font-medium text-neutral-800"
+        >
+          Nome
+        </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Mario"
+          class="block w-full p-2 text-neutral-900 border border-neutral-300 rounded-lg bg-neutral-50 text-xs"
+        />
+      </div>
+
+      <div class="mt-4">
+        <label
+          for="surname"
+          class="block mb-2 text-sm font-medium text-neutral-800"
+        >
+          Cognome
+        </label>
+        <input
+          type="text"
+          id="surname"
+          name="surname"
+          placeholder="Rossi"
+          class="block w-full p-2 text-neutral-900 border border-neutral-300 rounded-lg bg-neutral-50 text-xs"
+        />
+      </div>
+
+      <div class="mt-4">
+        <label
+          for="email"
+          class="block mb-2 text-sm font-medium text-neutral-800"
+        >
+          Email
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="esempio@dominio.com"
+          class="block w-full p-2 text-neutral-900 border border-neutral-300 rounded-lg bg-neutral-50 text-xs"
+        />
+      </div>
+
+      <div class="mt-4">
+        <label
+          for="password"
+          class="block mb-2 text-sm font-medium text-neutral-800"
+        >
+          Password
+        </label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="********"
+          class="block w-full p-2 text-neutral-900 border border-neutral-300 rounded-lg bg-neutral-50 text-xs"
+        />
+      </div>
+
+      <div class="mt-4">
+        <label
+          for="birthdate"
+          class="block mb-2 text-sm font-medium text-neutral-800"
+        >
+          Data di Nascita
+        </label>
+        <input
+          type="date"
+          id="birthdate"
+          name="birthdate"
+          class="block w-full p-2 text-neutral-900 border border-neutral-300 rounded-lg bg-neutral-50 text-xs"
+        />
+      </div>
+
+      <div class="mt-4">
+        <label
+          for="phone"
+          class="block mb-2 text-sm font-medium text-neutral-800"
+        >
+          Numero di Telefono
+        </label>
+        <input
+          type="number"
+          id="phone"
+          name="phone"
+          placeholder="0123456789"
+          class="block w-full p-2 text-neutral-900 border border-neutral-300 rounded-lg bg-neutral-50 text-xs"
+        />
+      </div>
+
+      <label class="block mt-4 mb-2 text-sm font-medium text-neutral-800">
+        Gusti Musicali
+      </label>
+      <div class="mt-4 flex flex-wrap gap-4">
+        <div class="flex items-center gap-2">
+          <input
+            id="taste-rock"
+            name="taste-rock"
+            type="checkbox"
+            class="size-4 cursor-pointer"
+          />
+          <label for="taste-rock" class="text-sm font-medium text-neutral-800">
+            Rock
+          </label>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <input
+            id="taste-pop"
+            name="taste-pop"
+            type="checkbox"
+            class="size-4 cursor-pointer"
+          />
+          <label for="taste-pop" class="text-sm font-medium text-neutral-800">
+            Pop
+          </label>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <input
+            id="taste-house"
+            name="taste-house"
+            type="checkbox"
+            class="size-4 cursor-pointer"
+          />
+          <label for="taste-house" class="text-sm font-medium text-neutral-800">
+            House
+          </label>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <input
+            id="taste-jazz"
+            name="taste-jazz"
+            type="checkbox"
+            class="size-4 cursor-pointer"
+          />
+          <label for="taste-jazz" class="text-sm font-medium text-neutral-800">
+            Jazz
+          </label>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <input
+            id="taste-classic"
+            name="taste-classic"
+            type="checkbox"
+            class="size-4 cursor-pointer"
+          />
+          <label
+            for="taste-classic"
+            class="text-sm font-medium text-neutral-800"
+          >
+            Classic
+          </label>
+        </div>
+      </div>
+
+      <hr class="mt-4 h-px text-neutral-200" />
+
+      <div class="mt-4">
+        <div class="flex items-center gap-2">
+          <input
+            id="terms"
+            name="terms"
+            type="radio"
+            class="size-4 cursor-pointer"
+          />
+          <label for="terms" class="text-sm font-medium text-neutral-800">
+            Accetta Termini e Condizioni
+          </label>
+        </div>
+      </div>
+
+      <hr class="my-4 h-px text-neutral-200" />
+
+      <button
+        type="submit"
+        class="px-3 py-2 text-xs w-full font-medium text-center text-white bg-emerald-700 rounded-lg hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-emerald-600 cursor-pointer"
+        onclick="alert('Registrazione inviata!')"
+      >
+        Invia registrazione
+      </button>
+    </form>
+  </body>
+</html>
