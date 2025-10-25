@@ -1,6 +1,6 @@
 # 🌱 Pre-Corso EPICODE - Web Developer 04-25 PT
 
-Benvenuti nei miei esercizi del **Pre-corso**!  
+Benvenuti nei miei esercizi del **pre-corso**!  
 Questa repository contiene gli esercizi introduttivi per prendere confidenza con **HTML**, **CSS** e i concetti base del Web Development.
 
 👉 Puoi visualizzare la **preview** degli esercizi qui:  
