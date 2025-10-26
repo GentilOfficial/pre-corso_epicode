@@ -10,8 +10,9 @@ Questa repository contiene gli esercizi introduttivi per prendere confidenza con
 
 ## 📂 Esercizi
 
-| Cartella | Titolo / Descrizione | Link diretto |
-|-----------|---------------------|---------------|
-| `01` | HTML Basics | [Apri →](https://gentilofficial.github.io/pre-corso_epicode/01/) |
-| `02` | Frontend Basics | [Apri →](https://gentilofficial.github.io/pre-corso_epicode/02/) |
-| `03` | CSS Basics | [Apri →](https://gentilofficial.github.io/pre-corso_epicode/03/) 
+| Cartella | Titolo / Descrizione | Link diretto                                                     |
+| -------- | -------------------- | ---------------------------------------------------------------- |
+| `01`     | HTML Basics          | [Apri →](https://gentilofficial.github.io/pre-corso_epicode/01/) |
+| `02`     | Frontend Basics      | [Apri →](https://gentilofficial.github.io/pre-corso_epicode/02/) |
+| `03`     | CSS Basics           | [Apri →](https://gentilofficial.github.io/pre-corso_epicode/03/) |
+| `04`     | YouTube Clone        | [Apri →](https://gentilofficial.github.io/pre-corso_epicode/04/) |
